@@ -1,0 +1,4 @@
+<launch>
+    <node name="webcam1" pkg="edgecam" type="img_publisher.py" respawn="true"/>
+    <node name="vision1" pkg="edgecam" type="img_subscriber.py" output = "screen" respawn="true"/>
+</launch>
