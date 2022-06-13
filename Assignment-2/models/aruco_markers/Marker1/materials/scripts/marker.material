@@ -1,0 +1,14 @@
+material Aruco1
+ {
+    technique
+    {
+       pass
+        {
+          texture_unit
+          {
+            texture /home/pijames/mrt_assignments_p/assignment2/robodash_ws/src/models/aruco_markers/Marker1/materials/textures/7x7_1000-314.png
+            scale 1 1
+          }
+       }
+    }
+ }
