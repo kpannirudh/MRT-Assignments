@@ -1,0 +1,3 @@
+<launch>
+    <node name="djoystick_node" pkg="base_p" type="base_joy_publisher.py" respawn="true"/>
+</launch>
