@@ -1,0 +1,3 @@
+<launch>
+    <node name="nav_rover" pkg="rover_p" type="full_drive_run.py" respawn="true"/>
+</launch>
